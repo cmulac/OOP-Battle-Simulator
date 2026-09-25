@@ -1,5 +1,6 @@
 from goblin import Goblin
 from hero import Hero
+from boss import Boss
 
 
 ARENA_NAME = "The desolte wasteland"
@@ -25,6 +26,8 @@ def main():
 
     goblin = Goblin("Gribble")
     Bob= Hero("Bob")
+    boss= Boss("Super Mega Boss")
+
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
 
